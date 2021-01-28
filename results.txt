@@ -1,0 +1,5 @@
+C:\Users\17033\miniconda3\python.exe "C:/Users/17033/Desktop/Drive/Senior Dev/emerging_tech/analysis.py"
+droneA_cap_1Msps_20dbSNR.u8 has features mean frame size:10000.00, frame variance:0.00, percent transmitting:0.71
+droneB_cap_1Msps_20dbSNR.u8 has features mean frame size:3676.60, frame variance:4001792.67, percent transmitting:0.69
+random-signal_cap_1Msps_20dbSNR.u8 has features mean frame size:7371.30, frame variance:19267833.45, percent transmitting:0.51
+wifi_cap_1Msps_20dbSNR.u8 has features mean frame size:2489.10, frame variance:249881.12, percent transmitting:0.80
