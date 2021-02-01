@@ -96,17 +96,19 @@ def get_performance(splits=(10, 25, 50)) -> pd.DataFrame:
 
 
 def main():
-    # splits = [10, 25, 50]
-    # for num_splits in splits:
-        # make_dataset(num_splits=num_splits)
-        # features = pd.read_csv(f"features_{num_splits}_splits.csv", index_col=[0])
-        # g = sns.pairplot(features, hue="Class")
-        # g.map_diag(sns.histplot)
-        # g.map_offdiag(sns.scatterplot)
-        # g.add_legend()
-        # plt.savefig(f"img/feature_facets_{num_splits}_splits.png")
+    splits = [10, 25, 50]
+    for num_splits in splits:
+        make_dataset(num_splits=num_splits)
+        features = pd.read_csv(f"features_{num_splits}_splits.csv", index_col=[0])
+        features = features.rename(columns={"Mean": "Mean (μs)", "Variance": "Variance (μs)",
+                                            "Up": "Up (percent)", "Class": "Class"})  # adding units
+        g = sns.pairplot(features, hue="Class")
+        g.map_diag(sns.histplot)
+        g.map_offdiag(sns.scatterplot)
+        g.add_legend()
+        plt.savefig(f"img/feature_facets_{num_splits}_splits.png")
 
-    #get_performance(splits=splits).to_csv("model_performance.csv")
+    get_performance(splits=splits).to_csv("model_performance.csv")
 
     performance_df = pd.read_csv("model_performance.csv")
     # Making values reader friendly

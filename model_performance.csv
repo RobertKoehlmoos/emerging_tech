@@ -1,73 +1,73 @@
 ,Model,Splits,Source,F Score
-0,Random Forest,25,droneA,1.0
-1,LDA,10,droneA,1.0
-2,Linear SVM,50,droneA,0.923076923076923
-3,Nearest Neighbor,10,droneB,1.0
-4,Linear SVM,25,droneB,1.0
-5,LDA,50,droneB,1.0
-6,Neural Net,25,wifi,1.0
-7,Random Forest,25,random-signal,1.0
-8,Decision Tree,50,wifi,0.972972972972973
-9,Neural Net,50,droneA,0.9473684210526316
-10,LDA,50,random-signal,0.8
-11,Linear SVM,10,wifi,1.0
-12,Nearest Neighbor,25,droneA,1.0
-13,LDA,25,droneA,0.888888888888889
-14,Decision Tree,25,wifi,1.0
-15,Random Forest,25,droneB,1.0
-16,Decision Tree,50,droneB,0.923076923076923
-17,LDA,10,droneB,1.0
-18,Neural Net,10,droneA,1.0
-19,Nearest Neighbor,50,droneB,1.0
-20,Linear SVM,25,random-signal,1.0
-21,LDA,50,droneA,0.9
-22,LDA,10,random-signal,1.0
-23,LDA,25,random-signal,0.923076923076923
-24,Linear SVM,50,random-signal,0.8571428571428571
-25,Neural Net,50,wifi,1.0
-26,Random Forest,10,wifi,1.0
-27,LDA,25,droneB,1.0
-28,Neural Net,10,random-signal,1.0
-29,Decision Tree,10,wifi,1.0
-30,Decision Tree,10,droneA,1.0
-31,Nearest Neighbor,25,wifi,1.0
-32,Linear SVM,50,wifi,1.0
-33,Random Forest,10,droneA,1.0
-34,Nearest Neighbor,25,droneB,1.0
-35,Decision Tree,25,droneB,0.9473684210526316
-36,Random Forest,50,droneB,1.0
-37,Decision Tree,25,random-signal,0.9333333333333333
-38,Nearest Neighbor,10,random-signal,1.0
-39,Decision Tree,10,random-signal,1.0
-40,Neural Net,10,wifi,1.0
-41,Decision Tree,25,droneA,1.0
-42,Nearest Neighbor,10,wifi,1.0
-43,Linear SVM,25,droneA,1.0
-44,LDA,50,wifi,1.0
-45,Nearest Neighbor,10,droneA,1.0
-46,Linear SVM,25,wifi,1.0
-47,Nearest Neighbor,50,random-signal,0.8571428571428571
-48,Neural Net,25,droneB,1.0
-49,Neural Net,25,droneA,1.0
-50,Random Forest,10,random-signal,1.0
-51,Decision Tree,50,droneA,1.0
-52,Nearest Neighbor,50,droneA,0.923076923076923
-53,Linear SVM,10,droneB,1.0
-54,LDA,10,wifi,1.0
-55,Nearest Neighbor,50,wifi,1.0
-56,Random Forest,25,wifi,1.0
-57,Decision Tree,50,random-signal,0.8571428571428571
-58,Random Forest,50,random-signal,0.9090909090909091
-59,Neural Net,50,droneB,1.0
-60,Linear SVM,10,random-signal,1.0
-61,Decision Tree,10,droneB,1.0
-62,Random Forest,10,droneB,1.0
-63,LDA,25,wifi,1.0
-64,Neural Net,50,random-signal,0.9090909090909091
-65,Random Forest,50,droneA,0.9473684210526316
-66,Linear SVM,50,droneB,1.0
-67,Random Forest,50,wifi,1.0
-68,Neural Net,25,random-signal,1.0
-69,Nearest Neighbor,25,random-signal,1.0
-70,Linear SVM,10,droneA,1.0
-71,Neural Net,10,droneB,1.0
+0,LDA,25,random-signal,0.923076923076923
+1,Random Forest,25,wifi,1.0
+2,Linear SVM,50,wifi,1.0
+3,LDA,25,wifi,1.0
+4,LDA,50,random-signal,0.8
+5,Random Forest,10,random-signal,1.0
+6,Random Forest,50,wifi,1.0
+7,Decision Tree,10,random-signal,1.0
+8,Neural Net,10,droneA,1.0
+9,Nearest Neighbor,25,droneB,1.0
+10,Nearest Neighbor,50,droneB,1.0
+11,Neural Net,50,random-signal,0.9090909090909091
+12,Linear SVM,50,droneB,1.0
+13,Decision Tree,10,wifi,1.0
+14,Nearest Neighbor,10,droneB,1.0
+15,LDA,10,random-signal,1.0
+16,Random Forest,25,droneB,0.9473684210526316
+17,Neural Net,25,droneA,1.0
+18,Linear SVM,10,wifi,1.0
+19,Decision Tree,25,droneB,1.0
+20,Nearest Neighbor,10,droneA,1.0
+21,Linear SVM,10,random-signal,1.0
+22,Decision Tree,25,wifi,1.0
+23,Neural Net,25,droneB,1.0
+24,Random Forest,10,wifi,1.0
+25,Random Forest,50,droneA,0.923076923076923
+26,Decision Tree,25,random-signal,1.0
+27,Linear SVM,50,random-signal,0.8571428571428571
+28,Decision Tree,50,droneB,0.923076923076923
+29,LDA,10,droneB,1.0
+30,Neural Net,10,droneB,1.0
+31,Nearest Neighbor,25,droneA,1.0
+32,Nearest Neighbor,25,wifi,1.0
+33,Linear SVM,25,random-signal,1.0
+34,LDA,10,wifi,1.0
+35,Decision Tree,50,random-signal,0.8571428571428571
+36,Linear SVM,25,wifi,1.0
+37,Nearest Neighbor,25,random-signal,1.0
+38,Linear SVM,25,droneA,1.0
+39,Decision Tree,50,droneA,0.972972972972973
+40,Nearest Neighbor,50,wifi,1.0
+41,Neural Net,10,wifi,1.0
+42,LDA,25,droneB,1.0
+43,Decision Tree,25,droneA,1.0
+44,Linear SVM,50,droneA,0.923076923076923
+45,Decision Tree,50,wifi,1.0
+46,Random Forest,50,random-signal,0.8571428571428571
+47,Neural Net,50,wifi,1.0
+48,Nearest Neighbor,10,random-signal,1.0
+49,Linear SVM,10,droneA,1.0
+50,Neural Net,50,droneB,1.0
+51,Nearest Neighbor,10,wifi,1.0
+52,Decision Tree,10,droneB,1.0
+53,LDA,10,droneA,1.0
+54,Linear SVM,10,droneB,1.0
+55,Neural Net,25,random-signal,1.0
+56,Random Forest,25,droneA,1.0
+57,Neural Net,50,droneA,0.9473684210526316
+58,Neural Net,10,random-signal,1.0
+59,Decision Tree,10,droneA,1.0
+60,Linear SVM,25,droneB,1.0
+61,Random Forest,10,droneA,1.0
+62,Random Forest,50,droneB,1.0
+63,LDA,50,droneA,0.9
+64,LDA,50,wifi,1.0
+65,Random Forest,10,droneB,1.0
+66,LDA,50,droneB,1.0
+67,Neural Net,25,wifi,1.0
+68,Random Forest,25,random-signal,0.9333333333333333
+69,LDA,25,droneA,0.888888888888889
+70,Nearest Neighbor,50,droneA,0.923076923076923
+71,Nearest Neighbor,50,random-signal,0.8571428571428571
